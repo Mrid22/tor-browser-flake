@@ -12,6 +12,7 @@
   outputs = {
     self,
     nixpkgs,
+    home-manager,
   }: let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
