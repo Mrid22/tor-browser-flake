@@ -17,7 +17,7 @@
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
     packages.x86_64-linux.default = pkgs.wrapFirefox pkgs.tor-browser {
-      gtk3 = pkgs.gtk3;
+      libcanberra-gtk3 = pkgs.gtk3;
     };
   };
 }
